@@ -4,9 +4,9 @@ module.exports = router.post('/userLogin', async (ctx) => {
   ctx.status = 200;
   ctx.body = {
     success: true,
-    message: '',
+    message: '登录成功',
     data: {
-      text: 'hello world'
+      token: 'thisisarandomtoken'
     }
   }
 })
